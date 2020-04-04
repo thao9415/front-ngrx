@@ -13,7 +13,7 @@ import {simpleReducer} from './simple.reducer';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forRoot({mess: simpleReducer})
+    StoreModule.forRoot({message: simpleReducer})
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ngrx44": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngrx44"
+    }
+  },
+  "defaultProject": "ngrx44",
+  "cli": {
+    "analytics": "ce78c7c8-ca7a-41ca-b979-49b2979750b2"
+  }
 }

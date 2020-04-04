@@ -1,7 +1,7 @@
 import {Action} from '@ngrx/store';
 
-const VIETNAM = 'VIETNAM';
-const ZHONGGUO = 'ZHONGGUO';
+export const VIETNAM = 'VIETNAM';
+export const ZHONGGUO = 'ZHONGGUO';
 
 export function simpleReducer(state: string = 'Hello', action: Action) {
   switch (action.type) {
